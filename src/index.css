@@ -31,6 +31,7 @@ body, html, .App, #root, .auth-wrapper {
   padding: 40px 55px 45px 55px;
   border-radius: 15px;
   transition: all .3s;
+  overflow-y: scroll;
 }
 .auth-wrapper .form-control:focus {
   border-color: #167bff;
@@ -40,7 +41,7 @@ body, html, .App, #root, .auth-wrapper {
   text-align: center;
   margin: 0;
   line-height: 1;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .custom-control-label {
   font-weight: 400;
@@ -71,6 +72,7 @@ input {
   border-radius: 3px;
   border: 1px solid #777;
 }
+select.error,
 input.error {
   border-color: red;
 }
